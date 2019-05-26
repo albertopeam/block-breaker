@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 879, y: 472}
   m_MaxSize: {x: 16004, y: 14022}
   vertical: 0
-  controlID: 10927
+  controlID: 11065
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_MinSize: {x: 604, y: 472}
   m_MaxSize: {x: 12004, y: 14022}
   vertical: 1
-  controlID: 10907
+  controlID: 11066
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 604, y: 222}
   m_MaxSize: {x: 12004, y: 4022}
   vertical: 0
-  controlID: 10908
+  controlID: 11067
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,18 +217,18 @@ MonoBehaviour:
       m_ExpandedIDs: 60e3ffff84e3fffface3ffffd0e3ffffeee3ffff0ce4ffff94e4ffff7ef7ffffcaf7ffff6ef8ffffccf8ffffa8faffffc8faffff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Loose Collider
+        m_OriginalName: Loose Collider
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -12452
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -257,8 +257,8 @@ MonoBehaviour:
     y: 0
     width: 808
     height: 684
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1267576, y: 0.5770889, z: -100.62911}
+    m_Target: {x: 5.3311396, y: 1.4386553, z: -3.270747}
     speed: 2
-    m_Value: {x: 2.1267576, y: 0.5770889, z: -100.62911}
+    m_Value: {x: 5.3311396, y: 1.4386553, z: -3.270747}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -336,9 +336,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.5906693
+    m_Target: 16.589561
     speed: 2
-    m_Value: 1.5906693
+    m_Value: 16.589561
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -356,7 +356,7 @@ MonoBehaviour:
     m_DynamicClip: 1
     m_OcclusionCulling: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -546,9 +546,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 64d3ffff
-    m_LastClickedInstanceID: -11420
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 8ee2ffff
+    m_LastClickedInstanceID: -7538
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
