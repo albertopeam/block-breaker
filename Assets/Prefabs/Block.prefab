@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63fdb126de1724f819e8d41ab9ee5c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyClip: {fileID: 8300000, guid: 7e33e7e39b84b43b69ab024a4fb36b00, type: 3}
