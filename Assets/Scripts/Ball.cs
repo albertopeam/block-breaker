@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
     [SerializeField] Paddle paddle;
-    private Vector2 paddleToBallVector;
-    private bool launched;
     [SerializeField] float xPush = 2f;
     [SerializeField] float yPush = 10f;
-
+    [SerializeField] AudioClip[] collisionClips;
+    private Vector2 paddleToBallVector;
+    private bool launched;
 
     // Start is called before the first frame update
     void Start() {
@@ -41,7 +38,9 @@ public class Ball : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (launched) {
-            GetComponent<AudioSource>().Play();
+            int item = Random.Range(0, collisionClips.Length);
+            AudioClip clip = collisionClips[item];
+            GetComponent<AudioSource>().PlayOneShot(clip);
         }
     }
 }
