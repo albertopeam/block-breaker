@@ -12,6 +12,9 @@ public class Level : MonoBehaviour {
 
     public void RemoveBlock() {
         numBlocks--;
+        if (numBlocks == 0) {
+            FindObjectOfType<SceneLoader>().LoadNextScene();
+        }
     }
 
 }
