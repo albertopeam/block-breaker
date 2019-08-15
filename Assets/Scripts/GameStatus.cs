@@ -29,6 +29,10 @@ public class GameStatus : MonoBehaviour {
         Time.timeScale = gameSpeed;
     }
 
+    public void Reset() {
+        Destroy(gameObject);
+    }
+
     public void AddDestroyedBlockScore() {
         score += pointsPerBlock;
         UpdateScoreText();
