@@ -10,12 +10,20 @@ public class Block : MonoBehaviour {
 
     private void Start() {
         level = FindObjectOfType<Level>();
-        level.AddBlock();
+        AddBreakableBlock();
+    }
+
+    private void AddBreakableBlock() {
+        if (tag == "Breakable") {
+            level.AddBlock();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        DestroyBlock();
-        AddGamePoints();
+        if (tag == "Breakable") {
+            DestroyBlock();
+            AddGamePoints();
+        }        
     }
 
     private void DestroyBlock() {
