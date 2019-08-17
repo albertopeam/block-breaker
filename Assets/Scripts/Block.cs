@@ -6,6 +6,8 @@ public class Block : MonoBehaviour {
 
     [SerializeField] AudioClip destroyClip;
     [SerializeField] GameObject blockSparklesVFX;
+    [SerializeField] int maxHits;
+    private int currentHits;
     private Level level;
 
     private void Start() {
@@ -21,8 +23,11 @@ public class Block : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (tag == "Breakable") {
-            DestroyBlock();
-            AddGamePoints();
+            currentHits++;
+            if (currentHits >= maxHits) {
+                DestroyBlock();
+                AddGamePoints();
+            }            
         }        
     }
 
