@@ -97,7 +97,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -134,11 +134,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddle: {fileID: 0}
   xPush: 2
-  yPush: 10
+  yPush: 14
   collisionClips:
   - {fileID: 8300000, guid: 191dcf8b2ed254f128fa4e5248bfc489, type: 3}
   - {fileID: 8300000, guid: 3e550bf3628384081b5be060bc9f4dbd, type: 3}
-  randomFactor: 0.5
+  randomFactor: 1
 --- !u!82 &947516886
 AudioSource:
   m_ObjectHideFlags: 0
